@@ -1,0 +1,38 @@
+{
+  "name": "jsonxpr",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabrielcosi/jsonxpr"
+  },
+  "license": "MIT",
+  "author": "Gabriel Cosi",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "git clean -xdf dist node_modules",
+    "format": "prettier --check . --ignore-path ./.gitignore",
+    "format:fix": "prettier --write . --ignore-path ./.gitignore",
+    "lint": "eslint",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.10",
+    "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
+    "@types/eslint__js": "8.42.3",
+    "eslint": "^9.12.0",
+    "eslint-plugin-import": "^2.31.0",
+    "prettier": "^3.3.3",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.9.0",
+    "vitest": "^2.1.5",
+    "zod": "^3.23.8"
+  }
+}
