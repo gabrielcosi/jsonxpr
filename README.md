@@ -1,10 +1,10 @@
 # JSONxpr
 
-JSONxpr is a TypeScript library that provides MongoDB-style expression evaluation for JSON objects. It allows you to write declarative queries and transformations using a familiar syntax inspired by MongoDB's aggregation framework.
+A TypeScript library for evaluating expressions against JSON objects.
 
 ## Features
 
-- 🔍 MongoDB-style operator syntax
+- 🔍 Declarative operator syntax
 - 📝 Variable substitution with dot notation
 - 🔢 Rich set of operators for various data types
 - 🎯 Type-safe implementation
