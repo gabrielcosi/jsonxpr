@@ -20,7 +20,7 @@
     "format": "prettier --check . --ignore-path ./.gitignore",
     "format:fix": "prettier --write . --ignore-path ./.gitignore",
     "lint": "eslint",
-    "release": "pnpm build && changesets publish",
+    "release": "pnpm build && changeset publish",
     "test": "vitest run"
   },
   "devDependencies": {
