@@ -100,8 +100,6 @@ export function createJsonxpr<
 }
 
 /**
- * MongoDB-like expression evaluator with built-in operators.
- *
  * @param expr - The expression to evaluate.
  * @param vars - Optional variables to use in the expression.
  *
